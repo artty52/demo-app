@@ -29,3 +29,22 @@ student['age'] = 25
 // ลบ key
 delete student.age
 
+// Array
+// เก็บข้อมูลใน array เป็นชนิดใดก็ได้
+
+var list = ['aaa',1,{id:1},['AAAA','BBBB']]
+
+for (let i = 0; i < list.length; i++) {
+    const element = list[i];
+    console.log(element);
+}
+/*
+result:
+'aaa'
+1
+{ id:1 }
+['AAAA','BBBB']
+*/
+
+
+
