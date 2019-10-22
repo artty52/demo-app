@@ -17,3 +17,6 @@ console.log(data)
 var y = data.shift()
 console.log(data)
 // [B' , 'C' , 'D']
+
+// unshift
+// แทรกสมาชิกตัวสุดแรก
